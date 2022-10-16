@@ -1,6 +1,6 @@
 # Tour Places
 
-### Check The Live Website ➡️ [Live Website](https://sekunev-language-cards.netlify.app/)
+### Check The Live Website ➡️ [Live Website](https://sekunev-palindromic-perfect-number.netlify.app//)
 
 ### Description
 
@@ -8,7 +8,7 @@ Purpose of the this coding challenge is to write a code that can list all the nu
 
 ### Visualization of the Website
 
-![image](https://github.com/Sekunev/Language-Cards/blob/main/src/Animation.gif)
+![image](https://github.com/Sekunev/Palindromic_Perfect/blob/main/Animation.gif)
 
 ### Project Skeleton
 
