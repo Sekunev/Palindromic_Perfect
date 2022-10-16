@@ -48,7 +48,7 @@ input {
   padding: 1rem;
   margin: 10px 10px;
   width: 15rem;
-
+  font-size: 1.5rem;
   border: 1px solid black;
   height: 400px;
   overflow-y: auto;
@@ -60,7 +60,7 @@ input {
   padding: 1rem;
   margin: 10px 10px;
   width: 15rem;
-
+  font-size: 1.5rem;
   border: 1px solid black;
   height: 400px;
   overflow-y: auto;
