@@ -1,0 +1,129 @@
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.container {
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.sec-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: black;
+  color: yellow;
+  padding: 0.5rem;
+  margin: 10px 10px;
+  cursor: pointer;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+input {
+  padding: 0.5rem;
+  margin: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sec-left {
+  display: flex;
+  flex-direction: column;
+}
+.sec-right {
+  display: flex;
+  flex-direction: column;
+}
+
+#div-Palindrome {
+  padding: 1rem;
+  margin: 10px 10px;
+  width: 15rem;
+
+  border: 1px solid black;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#div-Perfect {
+  padding: 1rem;
+  margin: 10px 10px;
+  width: 15rem;
+
+  border: 1px solid black;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (max-width: 595px) {
+  .container {
+    font-size: 1rem;
+  }
+  button {
+    width: 10rem;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+  input {
+    width: 8rem;
+    justify-content: center;
+    font-size: 1rem;
+    content: initial;
+  }
+  #div-Palindrome {
+    width: 10rem;
+  }
+  #div-Perfect {
+    width: 10rem;
+  }
+  .sec-left {
+    align-items: center;
+  }
+  .sec-right {
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    /* width: 50%; */
+    font-size: 0.9rem;
+  }
+  button {
+    width: 10rem;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+  input {
+    width: 10rem;
+    justify-content: center;
+    font-size: 1rem;
+    content: initial;
+  }
+  #div-Palindrome {
+    width: 8rem;
+  }
+  #div-Perfect {
+    width: 8rem;
+  }
+  .sec-left {
+    align-items: center;
+  }
+  .sec-right {
+    align-items: center;
+  }
+}
