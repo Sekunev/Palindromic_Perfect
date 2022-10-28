@@ -1,4 +1,5 @@
-# Tour Places
+# Palindromic Perfect Numbers
+
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev-palindromic-perfect-number.netlify.app//)
 
